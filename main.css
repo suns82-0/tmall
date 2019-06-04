@@ -1,0 +1,59 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+a {
+    color: #999999;
+}
+
+.top {
+    background: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.top span,
+.top a {
+    color: #999999;
+    margin: 0px 10px;
+
+}
+.top a .span,
+.top a:hover {
+    color: #C40000;
+    text-decoration: none;
+}
+.searchDiv{
+    background-color: #C40000;
+    width: 400px;
+    margin: 50px auto;
+    /* padding: 1px; */
+    height: 40px;
+    display: block;
+}
+
+.searchDiv input {
+    border-color: #C40000;
+    width: 275px;
+    height: 36px;
+    outline: none;
+    margin: 1px;
+}
+.searchButton {
+    background: #C40000;
+    border: 1px solid transparent;
+    color: #ffffff;
+    width: 110px;
+    height: 36px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+.searchBelow a {
+    padding: 0px 20px;
+}
