@@ -33,7 +33,7 @@ a {
 }
 
 .searchDiv input {
-    border-color: #C40000;
+    border-color: 2px #C40000;
     width: 275px;
     height: 36px;
     outline: none;
@@ -47,6 +47,10 @@ a {
     height: 36px;
     font-size: 20px;
     font-weight: bold;
+    outline: none;
+}
+.searchButton :focus {
+    outline: none;
 }
 .logo {
     position: absolute;
@@ -77,4 +81,33 @@ a {
     height: 34px;
     margin: 2px;
     outline: none;
+}
+.footer {
+    border-top-style: solid;
+}
+.footer_ensure  {
+    margin: 24px 0;
+    text-align: center;
+}
+.footer_desc {
+    max-width: 1024px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.footer_desc span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #646464;
+
+}
+.footer_desc a {
+    display: block;
+}
+.footer_desc a:hover {
+    text-decoration: none;
+    color: #C40000;
+}
+
+.descColumn {
+    padding-left: 15px;
 }
