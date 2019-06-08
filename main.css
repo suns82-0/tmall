@@ -127,6 +127,9 @@ a {
     display: block;
 }
 .copyright {
+    border-top-color: #C40000;
+    border-top-width: 2px;
+    border-top-style: solid;
     background: #000000;
 }
 .copyrightMiddle {
