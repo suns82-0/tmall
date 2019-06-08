@@ -156,3 +156,7 @@ img.cateye {
 .whitelink a:hover {
     text-decoration: none;
 }
+
+.whitelink .slash {
+    color: white;
+}
